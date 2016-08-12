@@ -9,7 +9,10 @@ alias l="ls -lAh"
 alias ll="ls -l"
 alias la='ls -A'
 
-# git
+# Ensure grep doesn't clobber colors
+alias grep="grep --color=always"
+
+# git stuff
 alias g='git'
 alias gs='git status'
 alias gl='git log'
