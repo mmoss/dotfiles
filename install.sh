@@ -23,3 +23,5 @@ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --grap
 git config --global alias.type 'cat-file -t'
 git config --global alias.dump 'cat-file -p'
 git config --global alias.amend "commit --amend --no-edit"
+git config --global alias.ammend "commit --amend --no-edit"
+git config --global alias.fpush "push --force-with-lease"
