@@ -18,4 +18,10 @@ precmd () {
 
 setopt prompt_subst
 PROMPT='%F{248}%n@%m:%f %~%F{cyan}${vcs_info_msg_0_}%f '
-RPROMPT='%F{248}%t%f'
+
+function node_version_info() {
+  local ver=`nvm current`
+  echo "[node-$ver]"
+}
+
+RPROMPT='%F{160}$(node_version_info)%f | %F{248}%t%f'
