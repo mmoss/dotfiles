@@ -30,5 +30,3 @@ alias gcp='git cherry-pick'
 # Development nav shortcuts
 alias ws='cd ~/Workspace'
 alias dotfiles='ws && cd dotfiles'
-alias reading='ws && cd reading'
-alias content='ws && cd content'
