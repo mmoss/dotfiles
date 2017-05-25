@@ -12,7 +12,7 @@ export PATH="$JAVA_HOME/bin:$PATH"
 export CATALINA_HOME="/usr/local/opt/tomcat@7/libexec"
 export PATH="$CATALINA_HOME/bin:$PATH"
 
-export M3_HOME="/usr/local/Cellar/maven/3.3.9/libexec"
+export M3_HOME="/usr/local/Cellar/maven/3.5.0/libexec"
 export M3_OPTS="-Xmx1536m"
 export PATH="$M3_HOME/bin:$PATH"
 unset M2_HOME
