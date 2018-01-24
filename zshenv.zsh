@@ -6,10 +6,10 @@ export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export MYSQL_HOME="/usr/local/mysql"
 export PATH="$MYSQL_HOME/bin:$PATH"
 
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
 
-export CATALINA_HOME="/usr/local/opt/tomcat@7/libexec"
+export CATALINA_HOME="/usr/local/Cellar/tomcat/8.5.23/libexec"
 export PATH="$CATALINA_HOME/bin:$PATH"
 
 export M3_HOME="/usr/local/Cellar/maven/3.5.0/libexec"
@@ -29,3 +29,6 @@ export PATH="$FLEX_HOME/bin:$PATH"
 
 export SVN_HOME="$(brew --prefix)/opt/subversion"
 export PATH=${SVN_HOME}:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
