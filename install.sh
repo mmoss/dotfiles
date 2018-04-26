@@ -13,5 +13,7 @@ ln -sfv "$PWD/zshrc.zsh" ~/.zshrc
 ln -sfv "$PWD/zlogin.zsh" ~/.zlogin
 ln -sfv "$PWD/zsh" ~/.zsh/
 
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh| zsh
+
 # Git config
 ln -sfv "$PWD/gitconfig" ~/.gitconfig
