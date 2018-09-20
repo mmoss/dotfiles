@@ -23,7 +23,7 @@ alias gdc='git diff --cached'
 alias gdv='git diff -w "$@" | vim -R -'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
-alias gb='git branch'
+alias gb='git branch --format "%(color:yellow)%(objectname:short) %(if)%(HEAD)%(then)%(color:reverse bold white)* %(else)%(color:white)  %(end)%(refname:short)"'
 alias gba='git branch -a'
 alias gcp='git cherry-pick'
 
